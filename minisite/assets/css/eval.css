@@ -1,0 +1,36 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+}
+h1 {
+    margin-bottom: 0;
+
+}
+
+hr {
+  border: none;
+  height: 2px;
+background-color: #777BB3; /* par exemple */
+  margin: 2rem 0;
+  width: 80%;
+}
+
+.icons {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+table {
+    border-collapse: collapse;
+    box-shadow: 5px 5px 2px 1px #aeb2d586;
+    width: 80vw;
+
+}
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}

@@ -1,0 +1,69 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+}
+h1 {
+    font-size: 34px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+}
+
+hr {
+  border: none;
+  height: 2px;
+background-color: #777BB3; /* par exemple */
+  margin: 2rem 0;
+  width: 80%;
+}
+
+
+
+.pres {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 55vw;
+    max-height: 30vh;
+    font-size: 20px;
+    padding: 15px;
+    gap: 10px;
+    border: thick double #232328ff;
+    border-radius: 30px;
+    background: #AEB2D5;
+    margin: 10px;
+}
+
+#pngPhp {
+    width: 20%;
+}
+
+mark {
+    background-color: #AEB2D5;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 6px;  
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    max-width: 65vw;
+    padding: 15px;
+    border: 1px solid #232328ff;
+    box-shadow: 12px 12px 2px 1px #AEB2D5;
+    border-radius: 30px;
+    margin-bottom: 8%;
+}
+
+.description h2 {
+    font-size: 35px;
+    margin-bottom:10px;
+
+}

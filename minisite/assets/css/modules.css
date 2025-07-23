@@ -1,0 +1,52 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+
+}
+
+h2 {
+    margin:0;
+}
+
+hr {
+  border: none;
+  height: 2px;
+background-color: #777BB3; /* par exemple */
+  margin: 2rem 0;
+  width: 80%;
+}
+
+.modules {
+    display: flex; 
+    flex-direction: column;
+    border: 1px solid black;
+    width: 30vw;
+    align-items: center;
+    border: 1px solid #232328ff;
+    box-shadow: 12px 12px 2px 1px #AEB2D5;
+    border-radius: 30px;
+    justify-content: center;
+    padding:10px;
+    background: #daddfcff;
+
+}
+
+.modules:hover {
+    background: #f8f8f8ff;
+
+}
+
+.content {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap; 
+    gap:20px;
+    max-width: 70vw;
+    margin-bottom: 40px;
+}
+
+ul {
+list-style-type: none;
+}

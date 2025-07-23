@@ -1,0 +1,38 @@
+
+body {
+margin: 0;
+font-family: "Source Code Pro", monospace;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+color : #232328ff;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    background-color: #AEB2D5;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color : #232328ff;
+}
+
+a:hover {
+    color: #585C95;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #AEB2D5;
+    padding: 20px;
+}
+
